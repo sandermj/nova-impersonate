@@ -1,6 +1,6 @@
 <?php
 
-namespace KABBOUCHI\NovaImpersonate\Contracts;
+namespace sandermj\NovaImpersonate\Contracts;
 
 interface Impersonate
 {
