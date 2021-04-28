@@ -1,11 +1,11 @@
 <?php
 
-namespace KABBOUCHI\NovaImpersonate\Http\Controllers;
+namespace sandermj\NovaImpersonate\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Str;
-use KABBOUCHI\NovaImpersonate\Contracts\Impersonate;
+use sandermj\NovaImpersonate\Contracts\Impersonate;
 use Laravel\Nova\Actions\ActionEvent;
 
 class ImpersonateController extends Controller
