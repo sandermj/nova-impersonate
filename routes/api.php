@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use KABBOUCHI\NovaImpersonate\Http\Controllers\ImpersonateController;
+use sandermj\NovaImpersonate\Http\Controllers\ImpersonateController;
 
 /*
 |--------------------------------------------------------------------------
