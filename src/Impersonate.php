@@ -1,6 +1,6 @@
 <?php
 
-namespace KABBOUCHI\NovaImpersonate;
+namespace sandermj\NovaImpersonate;
 
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Nova\Fields\Field;
