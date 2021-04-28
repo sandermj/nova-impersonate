@@ -32,7 +32,7 @@ class ToolServiceProvider extends ServiceProvider
 
         $this->app->booted(function () {
             if (config('nova-impersonate.enable_middleware')) {
-                $this->app['Illuminate\Contracts\Http\Kernel']->pushMiddleware(\KABBOUCHI\NovaImpersonate\Http\Middleware\Impersonate::class);
+                $this->app['Illuminate\Contracts\Http\Kernel']->pushMiddleware(\App\Http\Middleware\Impersonate::class);
             }
             $this->routes();
         });
