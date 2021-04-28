@@ -1,6 +1,6 @@
 <?php
 
-namespace KABBOUCHI\NovaImpersonate;
+namespace sandermj\NovaImpersonate;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
