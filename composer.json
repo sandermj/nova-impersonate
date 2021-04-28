@@ -12,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "KABBOUCHI\\NovaImpersonate\\": "src/"
+            "sandermj\\NovaImpersonate\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "KABBOUCHI\\NovaImpersonate\\ToolServiceProvider"
+                "sandermj\\NovaImpersonate\\ToolServiceProvider"
             ]
         }
     },
